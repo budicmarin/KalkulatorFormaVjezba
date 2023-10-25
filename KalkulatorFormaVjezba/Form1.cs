@@ -19,7 +19,8 @@ namespace KalkulatorFormaVjezba
 
         private void btnPromjeniTekst_Click(object sender, EventArgs e)
         {
-            
+            lbNaslov.Text = "Kliknuo sam promjeni juhu";
+            btnPromjeniTekst.Enabled = false;
         }
     }
 }
