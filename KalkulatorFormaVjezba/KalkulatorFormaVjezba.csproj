@@ -52,10 +52,28 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Greska.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Greska.Designer.cs">
+      <DependentUpon>Greska.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Obavijest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Obavijest.Designer.cs">
+      <DependentUpon>Obavijest.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Greska.resx">
+      <DependentUpon>Greska.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Obavijest.resx">
+      <DependentUpon>Obavijest.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
